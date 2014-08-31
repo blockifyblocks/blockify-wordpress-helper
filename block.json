@@ -1,0 +1,24 @@
+{
+  "name": "blockify-wordpress-helper",
+  "version": "0.0.0",
+  "authors": [
+    "Aaron Taylor <aaronfacetaylor@gmail.com>"
+  ],
+  "description": "Helper functions for WordPress",
+  "keywords": [
+    "blockify",
+    "wordpress",
+    "helper",
+    "block"
+  ],
+  "license": "GPLv3",
+  "homepage": "http://github.com/faceonline/blockify-wordpress-helper",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "blocks",
+    "test",
+    "tests"
+  ]
+}
