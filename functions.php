@@ -19,6 +19,8 @@ function register_fields_blockify() {
 add_action('acf/register_fields', 'register_fields_blockify');
 */
 
+if (array_key_exists('wp_version', $GLOBALS)) {
+
 // wp_header & wp_footer actions
 add_action('wp_head', 'blockify_css', 1);
 add_action('wp_footer', 'blockify_js');
@@ -42,4 +44,5 @@ if (!function_exists('bwp_get_the_post_thumbnail_src')) {
     function bwp_get_the_post_thumbnail_src() {
         return wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), '')[0];
     }
+}
 }
