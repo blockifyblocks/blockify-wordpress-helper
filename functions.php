@@ -43,3 +43,4 @@ if (!function_exists('bwp_get_the_post_thumbnail_src')) {
         return wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), '')[0];
     }
 }
+require_once 'class-wordpress-nav-menu.php';
